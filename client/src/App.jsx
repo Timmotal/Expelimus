@@ -18,7 +18,7 @@ const App = () => {
         to="/create-post"
         className='font-inter font-medium bg-[#e8994b] text-white px-4 py-2 rounded-md'
       >
-        Make a Magic😇  
+        Create  
       </Link>
     </header>
     <main className="sm:p-8 px-4 py-8 w-full bg-[#F9FAFE] min-h-[calc(100vh-73px)]">

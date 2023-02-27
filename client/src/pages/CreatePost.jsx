@@ -89,17 +89,17 @@ const CreatePost = () => {
         <div>
         <h1 className="font-extrabold text-[#222328] text-[32px]">Create your very own Magic</h1>
         <p className="mt-2 text-[#666E75] text-[16px] max-w-[500px]">
-            Make your Magic Spell come alive with the power of DALL-E AI
+            Make your Images come alive with the power of DALL-E AI
         </p>
         </div>
 
         <form onSubmit={handleSubmit} className="mt-16 max-w-3xl">
             <div className="flex flex-col gap-5">
                 <FormField
-                    labelName="Tell the AI Wizard some Hocus Pocus"
+                    labelName="Tell the AI Wizard your name"
                     type="text"
                     name="name"
-                    placeholder="cast your spells here"
+                    placeholder="Your name"
                     value={form.name}
                     handleChange={handleChange}
                 />
@@ -107,7 +107,7 @@ const CreatePost = () => {
                     labelName="Wizard Prompt"
                     type="text"
                     name="prompt"
-                    placeholder="unfathomable beauty in a formless state"
+                    placeholder="Write your spells here"
                     value={form.prompt}
                     handleChange={handleChange}
                     isSurpriseMe

@@ -14,7 +14,7 @@ const FormField = ({ labelName, type, name, placeholder, value, handleChange, is
                     onClick={handleSurpriseMe}
                     type="button"
                 >
-                    Get A Spell Surprise!
+                    Surprise Me AI Wizard!
                 </button>
             )}
         </div>
