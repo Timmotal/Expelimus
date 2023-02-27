@@ -142,17 +142,17 @@ const CreatePost = () => {
                     onClick={generateImage}
                     className='text-white bg-magic-color font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center'
                 >
-                    {generatingImg ? 'Casting the Spell...' : 'Cast A Spell 🧪'}
+                    {generatingImg ? 'Generating your image...' : 'Generate image'}
                 </button>
             </div>
 
             <div className="mt-10">
-                <p className='mt-2 text-[#666E75] text-[14px]'>After you finish making your spell, share with other Wizard & Witches</p>
+                <p className='mt-2 text-[#666E75] text-[14px]'>After the AI Wizard has generated your images, share with the community</p>
                 <button
                     type='submit'
                     className='mt-3 text-white bg-[#4c2c1e] font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center'
                 >
-                    {loading ? 'Sharing magic...' : 'Share your magic'}
+                    {loading ? 'Sharing image...' : 'Share image'}
                 </button>
             </div>
         </form>
